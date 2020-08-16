@@ -11,7 +11,7 @@
 html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
-  color: #eee;
+  color: #fff;
 }
 
 body {
@@ -386,6 +386,7 @@ span.text {
 }
 
 .social-media i {
+  color: #fff;
   font-size: 5rem;
   -webkit-transition: color 650ms;
   transition: color 650ms;
@@ -839,6 +840,7 @@ form{
         width: 100%
     } */
   .contact i {
+    color: #fff;
     margin-right: 10px;
   }
   .up {
