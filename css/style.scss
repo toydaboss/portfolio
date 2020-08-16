@@ -9,12 +9,14 @@
 html{
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
-    color: #eee;
+    //color: #eee;
+    color: rgb(116, 111, 111);
 }
 body{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    //background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-color: #e0e6e9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +24,7 @@ body{
 }
 a{
     text-decoration: none;
-    color: #eee;
+    color: rgb(116, 111, 111);
 }
 section{
     padding: 6rem 0;
@@ -49,7 +51,7 @@ img{
 }
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba($color: #fff, $alpha: 0.3);
+    color: rgba($color: rgb(116, 111, 111), $alpha: 0.5);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -62,7 +64,7 @@ img{
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba($color: #fff, $alpha: 0.95);
+    background-color: rgba($color:rgb(116, 111, 111), $alpha: 0.95);
 }
 .section-heading h1::before{
     width: 10rem;
@@ -94,7 +96,7 @@ header{
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #fbc2eb;
+    background-color: rgb(116, 111, 111);
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -114,7 +116,7 @@ li{
     font-family: 'Pacifico', cursive;
     padding: 1rem;
     font-size: 3rem;
-    color: #fff;
+    color: #e0e6e9;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -192,14 +194,14 @@ li{
 /* button */  
   .btn {
     //background-color: #fec15b;
-    background-color: rgb(91, 135, 224);
+    background-color: #e0e6e9;
     box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.15),
-      -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.5);
     display: flex;
     position: absolute;
     top: 80%;
     left: 35%;
-    color: #e0e6e9;
+    color: rgb(116, 111, 111);
   }
   
   .press {
@@ -327,7 +329,7 @@ li{
         width: 10rem;
         height: 10rem;
         border: 3px solid #ffe838;
-        background-color: #fbc2eb;
+        background-color: rgb(116, 111, 111);
         margin-bottom: 2rem;
         display: flex;
         transform: rotate(45deg);
@@ -369,7 +371,7 @@ li{
         font-size: 1.5rem;
         text-transform: uppercase;
         font-weight: 300;
-        opacity: 0.5;
+        opacity: 0.7;
     }
     .cta{
         display: inline-block;
@@ -443,7 +445,7 @@ li{
 /* Volunteering Timeline Ends */
 /* Contact Starts*/
 .contact{
-    background-color:rgba(49, 53, 52, 0.3) ;   
+    background-color:rgba(49, 53, 52, 0.1) ;   
 }
 /* form{
     width: 70%;
@@ -513,6 +515,7 @@ form{
     background-color: rgba(4, 4, 7, 0.3);
     padding: 2rem 0;
     position: relative;
+    color: #e0e6e9;
     p{
         font-size: 1.3rem;
     }
@@ -615,7 +618,14 @@ form{
             font-size: 1.4rem;
         }
     }
+    .nav-list {
+        li{
+            margin-top: 1em;
+        }
+       
+    }
     .nav-link{
+        padding-top: .2rem;
         font-size: 3.5rem;
     }
     .about .container{

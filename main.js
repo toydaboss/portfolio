@@ -10,16 +10,16 @@ $(document).ready(function () {
     $('nav a[href*="#"]').on('click', function () {
         $('html, body').animate({keyframes: {
             scrollTop: $($(this).attr('href')).offset().top - 100
-        }, options: 2000});
+        }, options: 1000});
     });
     $('#up').on('click', function () {
         $('html, body').animate({keyframes: {
             scrollTop: 0
-        }, options: 2000});
+        }, options: 1000});
     });
-    AOS.init({
+/*     AOS.init({
         easing: 'ease',
-        duration: 1800,
+        duration: 500,
         once: true
-    });
+    }); */
 });
