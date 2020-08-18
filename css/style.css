@@ -58,7 +58,7 @@ img {
 
 .section-heading h1 {
   font-size: 3.5rem;
-  color: rgba(116, 111, 111, 0.5);
+  color: rgba(116, 111, 111, 0.7);
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -142,14 +142,6 @@ li {
   padding: 1rem;
   font-size: 3rem;
   color: #746f6f;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  background: -webkit-gradient(linear, left bottom, left top, from(#ffe838), to(#fd57bf));
-  background: linear-gradient(to top, #ffe838, #fd57bf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .top-nav.open {
