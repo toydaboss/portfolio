@@ -8,7 +8,7 @@ html{
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
     //color: #eee;
-    color: rgb(116, 111, 111);
+    color: rgba(56, 53, 53,0.9);
 }
 body{
     width: 100%;
@@ -95,7 +95,7 @@ header{
     top: -100vh;
     z-index: 50;
     //background-color: rgb(116, 111, 111);
-    background-color:rgb(255, 244, 158);
+    background-color:#ffe838;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -115,7 +115,8 @@ li{
     font-family: 'Pacifico', cursive;
     padding: 1rem;
     font-size: 3rem;
-    color: rgb(116,111,111);
+    //color: rgb(116,111,111);
+    color: #000;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -398,12 +399,17 @@ li{
         text-align: center;
         width: 70%;
     }
+    p{
+        text-align: left;
+        color: #000;
+    }
     h1{
         font-size: 2rem;
         text-transform: uppercase;
         font-weight: 300;
         margin-bottom: 1rem;
         opacity: .5;
+        color: rgba($color: #000000, $alpha: 0.8);
     }
     .date{
         border-bottom: 1px solid rgba($color: #fff, $alpha: 0.1);
@@ -433,7 +439,7 @@ li{
 }
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px rgba($color: #000000, $alpha: 0.5);
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -540,7 +546,7 @@ form{
 /* Animations */
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 #ffe838;
     }
     70%{
         box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);

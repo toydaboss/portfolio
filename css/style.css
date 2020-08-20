@@ -9,7 +9,7 @@
 html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
-  color: #746f6f;
+  color: rgba(56, 53, 53, 0.9);
 }
 
 body {
@@ -111,7 +111,7 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #fff49e;
+  background-color: #ffe838;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
   -webkit-transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -141,7 +141,7 @@ li {
   font-family: 'Pacifico', cursive;
   padding: 1rem;
   font-size: 3rem;
-  color: #746f6f;
+  color: #000;
 }
 
 .top-nav.open {
@@ -531,12 +531,18 @@ span.text {
   width: 70%;
 }
 
+.timeline p {
+  text-align: left;
+  color: #000;
+}
+
 .timeline h1 {
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 300;
   margin-bottom: 1rem;
   opacity: .5;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .timeline .date {
@@ -571,8 +577,8 @@ span.text {
 
 .timeline .date::after {
   content: '';
-  -webkit-box-shadow: 0 0 0 4px #fd57bf;
-          box-shadow: 0 0 0 4px #fd57bf;
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.5);
   border-radius: 100%;
   left: -8rem;
   height: 1.5rem;
@@ -687,8 +693,8 @@ form{
 /* Animations */
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
-            box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    -webkit-box-shadow: 0 0 0 0 #ffe838;
+            box-shadow: 0 0 0 0 #ffe838;
   }
   70% {
     -webkit-box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
@@ -701,8 +707,8 @@ form{
 }
 @keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
-            box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    -webkit-box-shadow: 0 0 0 0 #ffe838;
+            box-shadow: 0 0 0 0 #ffe838;
   }
   70% {
     -webkit-box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
