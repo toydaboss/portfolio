@@ -9,7 +9,7 @@
 html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
-  color: rgba(56, 53, 53, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 body {
@@ -58,7 +58,7 @@ img {
 
 .section-heading h1 {
   font-size: 3.5rem;
-  color: rgba(116, 111, 111, 0.7);
+  color: #746f6f;
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -261,7 +261,10 @@ li {
   position: absolute;
   top: 80%;
   left: 35%;
-  color: #746f6f;
+}
+
+.btn .text {
+  color: black;
 }
 
 .press {
