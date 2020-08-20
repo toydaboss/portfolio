@@ -10,6 +10,7 @@ html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.9);
+  scroll-behavior: smooth;
 }
 
 body {
